@@ -42,4 +42,4 @@ const student5 = new StudentHolberton('Jason', 'Sandler', class2019);
 
 const listOfStudents = [student1, student2, student3, student4, student5];
 
-export default listOfStudents;￼Enter
+export default listOfStudents;￼

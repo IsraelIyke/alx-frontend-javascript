@@ -33,7 +33,7 @@ class Car {
     const clone = Object.create(Car.prototype);
     const symbols = Object.getOwnPropertySymbols(this);
 
-    symbols.forEach( symbol => {
+    symbols.forEach((symbol) => {
       const descriptor = Object.getOwnPropertyDescriptor(this, symbol);
       Object.defineProperty(clone, symbol, descriptor);
     });
